@@ -1,6 +1,6 @@
 # CNN_stock
 A simple deep neural network based on CNNs to predict the growth slope of a stock in Tehran Stock Exchange.
-It first trains the model on historical data of the given stock and then predicts the the growth slope of the stock's price based on the information of the last 10 days.
+It first trains the model on historical data of the given stock and then predicts the the growth slope of the stock's price for the next trading day based on the information of the last 10 days.
 
 ## How to Run?
 
@@ -18,8 +18,9 @@ pip install -r requirements.txt
 .
 .
 ```
-5. The output will be a message that says the price of the stock will be decreased or increased at the next day of
+5. The output will be a message that says the price of the stock will be decreased or increased on the next trading day
 
-The following image shows the performance of the model for "وبملت" for train (left) and test (right) sets.
+The following image shows the performance of the model for "وبملت" for train (upper) and test (lower) sets.
 
-![](train.png) ![](test.png)
+![](train.png) 
+![](test.png)
