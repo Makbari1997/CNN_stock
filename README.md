@@ -19,3 +19,7 @@ pip install -r requirements.txt
 .
 ```
 5. The output will be a message that says the price of the stock will be decreased or increased at the next day of
+
+The following image shows the performance of the model for "وبملت" for train (left) and test (right) sets.
+
+![](train.png) ![](test.png)
